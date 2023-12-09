@@ -19,6 +19,9 @@ public class JobData {
     private static boolean isDataLoaded = false;
 
     private static ArrayList<HashMap<String, String>> allJobs;
+    public static ArrayList<HashMap<String, String>> getAllJobs() {
+        return allJobs;
+    }
 
     /**
      * Fetch list of all values from loaded data,
