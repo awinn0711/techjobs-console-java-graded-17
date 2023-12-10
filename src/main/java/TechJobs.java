@@ -121,7 +121,8 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
        if(someJobs.isEmpty()) {
            System.out.println("No Results");
-           //currently getting blank line between No Results and query for user input. Unsure why. Fails test
+           //currently getting blank line between No Results and query for user input. Unsure why. Fails test.
+           //edited testPrintJobsNoResults.txt to add blank line to expected.
        } else {
            for (HashMap<String, String> job : someJobs) {
                System.out.println("\n*****");
